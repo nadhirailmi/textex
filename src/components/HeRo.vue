@@ -6,7 +6,7 @@
 
         <h1 class="font-bold sm:text-5xl text-3xl text-left md:text-right my-auto text-primary1 mx-auto">
             Hidup bebas sampah <br>
-            lebih <span class="text-primary3">bersih</span> <br>
+            lebih <span class="text-primary2">bersih</span> <br>
             lebih <span class="text-primary3">berkualitas</span>
         </h1>
 
