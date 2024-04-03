@@ -1,17 +1,20 @@
 <template>
   <navbar/>
   <hero/>
+  <about/>
 </template>
 
 <script>
 import navbar from './components/NavBar.vue'
 import hero from './components/HeRo.vue'
+import about from './components/AboutUs.vue'
 
 export default {
   name:"app",
   components:{
     navbar,
     hero,
+    about,
   }
 }
 import { onMounted } from 'vue'
