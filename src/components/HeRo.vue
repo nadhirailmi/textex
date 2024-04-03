@@ -1,6 +1,6 @@
 <template>
 
-    <div class="mt-20 grid md:grid-cols-2 md:px-32 px-10">
+    <div class="md:mt-20 mt-28 grid md:grid-cols-2 md:px-32 px-10">
 
         <img src="/asset/Group 9.png" alt="" class="w-[500px] mx-auto">
 
