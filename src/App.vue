@@ -2,12 +2,14 @@
   <navbar/>
   <hero/>
   <about/>
+  <datai/>
 </template>
 
 <script>
 import navbar from './components/NavBar.vue'
 import hero from './components/HeRo.vue'
 import about from './components/AboutUs.vue'
+import datai from './components/DaTa.vue'
 
 export default {
   name:"app",
@@ -15,6 +17,7 @@ export default {
     navbar,
     hero,
     about,
+    datai,
   }
 }
 import { onMounted } from 'vue'

@@ -1,16 +1,16 @@
 <template>
 
-    <section class="flex bg-primary1 text-white justify-between px-10 fixed top-0 left-0 right-0 py-1 md:h-auto h-24">
+    <section class="flex bg-primary1 text-white justify-between px-10 fixed top-0 left-0 right-0 py-1 md:h-auto h-24 z-50">
 
         <img src="/asset/logologonaji.jpg" alt="logo" class="md:w-40 w-[30%]  my-auto">
 
         <div class="hidden md:block align-middle my-auto w-[700px]">
 
             <ul class="flex font-medium justify-between">
-                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="/about">Tentang Kami</a></li>
-                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="/data">Data</a></li>
-                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="/join">Menjadi Relawan</a></li>
-                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="/contact">Kontak Kami</a></li>
+                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="#about">Tentang Kami</a></li>
+                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="#datai">Data</a></li>
+                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="#join">Menjadi Relawan</a></li>
+                <li class="hover:border-b-2 transition-transform duration-1000 cursor-pointer"><a href="#contact">Kontak Kami</a></li>
             </ul>
 
         </div>
@@ -27,10 +27,10 @@
 
     <div id="navbar-default" class="hidden md:hidden w-full md:w-auto fixed bg-white top-24">
             <ul class="mx-5 text-base text-primary1 py-4">
-                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="/about" class="ml-2">Tentang Kami</a></li>
-                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="/data" class="ml-2">Data</a></li>
-                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="/join" class="ml-2">Menjadi Relawan</a></li>
-                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="/contact" class="ml-2">Kontak Kami</a></li>
+                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="#about" class="ml-2">Tentang Kami</a></li>
+                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="#datai" class="ml-2">Data</a></li>
+                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="#join" class="ml-2">Menjadi Relawan</a></li>
+                <li class="py-2 hover:bg-slate-200 rounded-md"><a href="#contact" class="ml-2">Kontak Kami</a></li>
             </ul>
     </div>
 
